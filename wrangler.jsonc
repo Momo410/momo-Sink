@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "sink",
+  "name": "momo-sink",
   "main": ".output/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
@@ -34,8 +34,8 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "preview_id": "ef93d42dc4b34969bab404d2e80f8dd3",
-      "id": "ef93d42dc4b34969bab404d2e80f8dd3" // IMPORTANT: Change this to your KV namespace ID
+      "preview_id": "3914c93ce92349f79606e84ccba55015",
+      "id": "3914c93ce92349f79606e84ccba55015" // IMPORTANT: Change this to your KV namespace ID
     }
   ],
   "r2_buckets": [
